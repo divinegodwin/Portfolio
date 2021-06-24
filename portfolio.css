@@ -1,0 +1,160 @@
+body {
+  background: #ece9f5;
+  background-repeat: no-repeat;
+}
+
+li {
+  display: inline-block;
+  padding: 12px;
+}
+
+ul {
+  padding-left: 200px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#container {
+  width: 900px;
+  height: 550px;
+  margin-left: 100px;
+  border-radius: 5px;
+  background-color: white;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.myprojects {
+  margin-left: 120px;
+  color: white;
+  background-color: #814def;
+  border: none;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+.pic {
+  height: 390px;
+  width: 500px;
+  float: right;
+  background: transparent;
+  border-radius: 20px;
+}
+
+.description {
+  font-size: xx-large;
+  margin-left: 50px;
+}
+
+.description2 {
+  font-size: medium;
+  margin-left: 50px;
+}
+.myname {
+  color: #814def;
+  font-weight: 900;
+}
+
+#hire {
+  width: 100px;
+  height: 30px;
+  background-color: #814def;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin-left: 50px;
+}
+
+#list {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.p {
+  padding: 10px;
+  margin-left: 50px;
+  margin-top: 60px;
+}
+
+a {
+  color: #814def;
+  font-weight: 900;
+}
+
+.web {
+  color: #814def;
+}
+
+.port {
+  margin-left: 2rem;
+  font-family: cursive;
+}
+
+@media (max-width: 1024px) {
+  body {
+    background: #ece9f5;
+  }
+
+  li {
+    display: inline-block;
+    padding: 7px;
+  }
+
+  ul {
+    padding-left: 2px;
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 1.1em;
+  }
+
+  #container {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: white;
+    max-width: 100%;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .pic {
+    height: 100%;
+    width: 50%;
+    float: right;
+    background: transparent;
+    border-radius: 20px;
+  }
+
+  .description {
+    font-size: 1.5em;
+    margin-left: 20px;
+  }
+
+  .myprojects {
+    color: white;
+    background-color: #814def;
+    border: none;
+    height: 2rem;
+    width: 7rem;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: 220px;
+    outline: none;
+    
+  }
+
+  .description2 {
+    font-size: 1rem;
+    margin-left: 20px;
+    float: left;
+    font-family: cursive;
+  }
+}
