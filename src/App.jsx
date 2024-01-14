@@ -11,7 +11,7 @@ function App() {
 <Navbar />
 
 
-<div className=" px-6 mt-[4.5rem] ">
+<div className=" px-6 mt-[4.5rem] w-full ">
         <header className=" main-header font-bold text-5xl "><span className="text-[#FFBA08]">I'm</span> Agbasimelo Divine</header>
 
         <p className="text-lg pt-3">
@@ -137,7 +137,7 @@ function App() {
 
         <div className="projects w-[100%] h-auto pb-5 mt-8  rounded-lg">
    
-        <div className="pl-5 ">
+        <div className=" grid justify-center">
           
       <img src={ghostGram}
       alt="Ghost Gram image"
@@ -150,7 +150,7 @@ function App() {
       </div>
    
    
-    <div className="pl-5 pt-12 ">
+    <div className="grid justify-center pt-12 ">
    
       <img src={colorFlipper}
       alt="color flipper image"
