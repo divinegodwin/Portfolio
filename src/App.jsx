@@ -9,6 +9,8 @@ import reactImage from "../public/Images/react.png";
 import nextSvg from "../public/Images/nextjs.svg";
 import tailwindImage from "../public/Images/tailwind.png";
 import Supabase from "../public/Images/supabase.png";
+import Github from "../public/Images/github.png";
+import Git from "../public/Images/git.png";
 
 function App() {
   return (
@@ -190,6 +192,20 @@ function App() {
               alt= "supabase image"
               className="w-[40px] h-[40px]"
             ></img>
+
+              <img
+              src={Git}
+              alt= "supabase image"
+              className="w-[40px] h-[40px]"
+            ></img>
+
+
+                <img
+              src={Github}
+              alt= "supabase image"
+              className="w-[40px] h-[40px]"
+            ></img>
+
           </div>
         </div>
 
