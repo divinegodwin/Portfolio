@@ -8,7 +8,7 @@ function App() {
     <div>
       <Navbar />
 
-      <div className=" px-6 pt-[8rem] w-full  ">
+      <div className=" px-6 pt-[8rem] w-full  " id="home">
         <header className=" main-header font-bold text-4xl ">
           <span className="text-[#FFBA08]">I'm</span>
           <br /> Agbasimelo
@@ -78,7 +78,7 @@ function App() {
           </div>
         </div>
 
-        <div>
+        <div id="service">
           <div className="pt-20 grid justify-center">
             <header className="font-bold text-2xl ">Service</header>
           </div>
