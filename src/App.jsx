@@ -2,6 +2,13 @@ import Navbar from "./Navbar";
 import "./App.css";
 import colorFlipper from "../public/Images/colorfliper.jpg";
 import ghostGram from "../public/Images/ghostgram.jpg";
+import Js from "../public/Images/js.png";
+import Html from "../public/Images/html-5.png";
+import Css from "../public/Images/css.png";
+import reactImage from "../public/Images/react.png";
+import nextSvg from "../public/Images/nextjs.svg";
+import tailwindImage from "../public/Images/tailwind.png";
+import Supabase from "../public/Images/supabase.png";
 
 function App() {
   return (
@@ -140,8 +147,54 @@ function App() {
           </div>
         </div>
 
+        <div className=" grid justify-center">
+          <div className="pt-20 grid justify-center">
+            <header className=" font-bold text-2xl ">My Tools</header>
+          </div>
+
+          <div className="grid gap-12 grid-cols-3 pt-12 h-auto justify-center">
+            <img
+              src={Html}
+              alt="html image"
+              className="w-[40px] h-[40px]"
+            ></img>
+
+            <img src={Css} alt="css image" className="w-[40px] h-[40px]"></img>
+
+            <img
+              src={tailwindImage}
+              alt="Tailwind image"
+              className="w-[40px] h-[40px]"
+            ></img>
+
+            <img
+              src={Js}
+              alt="javascript image"
+              className="w-[40px] h-[40px]"
+            ></img>
+
+            <img
+              src={reactImage}
+              alt="react image"
+              className="w-[40px] h-[40px]"
+            ></img>
+
+            <img
+              src={nextSvg}
+              alt="nextSvg image"
+              className="w-[40px] h-[40px]"
+            ></img>
+
+            <img
+              src={Supabase}
+              alt= "supabase image"
+              className="w-[40px] h-[40px]"
+            ></img>
+          </div>
+        </div>
+
         <div>
-          <div className="pt-14 grid justify-center">
+          <div className="pt-20 grid justify-center">
             <header className="font-bold text-2xl">Portfolio</header>
           </div>
 
@@ -170,7 +223,7 @@ function App() {
           </div>
         </div>
 
-        <div className="pt-14 grid justify-center">
+        <div className="pt-16 grid justify-center">
           <p className="font-bold text-2xl">Contact Me</p>
         </div>
 
