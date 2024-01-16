@@ -18,13 +18,13 @@ function App() {
       <Navbar />
 
       <div className=" px-6 pt-[8rem] w-full  " id="home">
-        <header className=" main-header font-bold text-4xl ">
+        <header className=" main-header font-bold text-4xl text-white ">
           <span className="text-[#FFBA08]">I'm</span>
           <br /> Agbasimelo
           <br /> Divine
         </header>
 
-        <p className="text-lg pt-3">
+        <p className="text-lg pt-3 text-white">
           I'm a passionate React.js and Next.js developer with a passion for
           crafting sleek and responsive web applications. Proficient in Tailwind
           CSS and adept at database management with PostgreSQL and Supabase.
@@ -89,7 +89,7 @@ function App() {
 
         <div id="services" >
           <div className="pt-20 grid justify-center">
-            <header className="font-bold text-2xl ">Service</header>
+            <header className="font-bold text-2xl text-white">Service</header>
           </div>
 
           <div className="bg-[#212123]  h-[220px]  rounded-lg text-black mt-4 k mb-4">
@@ -151,7 +151,7 @@ function App() {
 
         <div className=" grid justify-center" id="tools">
           <div className="pt-20 grid justify-center">
-            <header className=" font-bold text-2xl" id="tools">My Tools</header>
+            <header className=" font-bold text-2xl text-white" id="tools">My Tools</header>
           </div>
 
           <div className="grid gap-12 grid-cols-3 pt-12 h-auto justify-center">
@@ -184,7 +184,7 @@ function App() {
             <img
               src={nextSvg}
               alt="nextSvg image"
-              className="w-[40px] h-[40px]"
+              className="w-[40px] h-[40px] bg-white"
             ></img>
 
             <img
@@ -196,14 +196,14 @@ function App() {
               <img
               src={Git}
               alt= "supabase image"
-              className="w-[40px] h-[40px]"
+              className="w-[40px] h-[40px] bg-white"
             ></img>
 
 
                 <img
               src={Github}
               alt= "supabase image"
-              className="w-[40px] h-[40px]"
+              className="w-[40px] h-[40px] bg-white"
             ></img>
 
           </div>
@@ -211,10 +211,10 @@ function App() {
 
         <div id="portfolio">
           <div className="pt-20 grid justify-center">
-            <header className="font-bold text-2xl">Portfolio</header>
+            <header className="font-bold text-2xl text-white">Portfolio</header>
           </div>
 
-          <div className="projects w-[100%] h-auto pb-5 mt-8  rounded-lg">
+          <div className="projects w-[100%] h-auto pb-5 mt-8  rounded-lg text-white">
             <div className=" grid justify-center">
               <img
                 src={ghostGram}
@@ -239,7 +239,7 @@ function App() {
           </div>
         </div>
 
-        <div className="pt-16 grid justify-center" id="contact"> 
+        <div className="pt-16 grid justify-center text-white" id="contact"> 
           <p className="font-bold text-2xl">Contact Me</p>
         </div>
 

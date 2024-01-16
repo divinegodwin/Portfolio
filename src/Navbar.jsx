@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
+import { Link as ScrollLink } from 'react-scroll';
 const Navbar = () => {
 
     const [navIsClicked, setNavIsClicked] = useState(false)
@@ -20,7 +20,7 @@ const Navbar = () => {
       <div className="flex justify-end px-4 py-4">
         <svg
         onClick={handleNavClicked}
-          className="w-[30px] h-[30px] "
+          className="w-[30px] h-[30px] text-white"
           data-slot="icon"
           fill="none"
           strokeWidth="1.5"
