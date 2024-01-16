@@ -32,8 +32,8 @@ function App() {
           deliver a seamless user experience.
         </p>
 
-        <div className="flex flex-row gap-8 ml-5 pt-5 text-[#FFBA08] ">
-          <div className="bg-[#212123] w-[70px] h-[70px] pt-6 pl-6 rounded-full">
+        <div className="flex flex-row gap-8 justify-center pt-5 text-[#FFBA08] ">
+          <div className="bg-[#212123] w-[45px] h-[45px] pt-3 pl-3 rounded-full">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -50,7 +50,7 @@ function App() {
             </svg>
           </div>
 
-          <div className="bg-[#212123] w-[70px] h-[70px] pt-6 pl-6 rounded-full">
+          <div className="bg-[#212123] w-[45px] h-[45px] pt-3 pl-3 rounded-full">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -67,7 +67,7 @@ function App() {
             </svg>
           </div>
 
-          <div className="bg-[#212123] w-[70px] h-[70px] pt-6 pl-6 rounded-full">
+          <div className="bg-[#212123] w-[45px] h-[45px] pt-[10px] pl-[11px] rounded-full">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"

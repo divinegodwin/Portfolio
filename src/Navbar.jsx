@@ -1,10 +1,6 @@
 import { useState } from "react";
 
-
 import { HashRouter as Router} from "react-router-dom";
-
-
-
 
 const Navbar = () => {
 
@@ -19,8 +15,6 @@ const Navbar = () => {
 
     <Router>
     <div>
-
-   
 
     <div className ='w-full h-[60px] shadow-lg fixed top-0 bg-transparent backdrop-blur-[40px] border-slate-900'>
 
