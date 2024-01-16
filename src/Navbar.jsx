@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className="w-full h-[60px] shadow-lg fixed top-0 bg-transparent backdrop-blur-[40px] border-slate-900">
+      <div className=" w-full h-[60px] shadow-lg fixed top-0 bg-transparent backdrop-blur-[40px] border-slate-900">
         <div className="flex justify-end px-4 py-4">
           <svg
             onClick={handleNavClicked}

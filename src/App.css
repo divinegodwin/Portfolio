@@ -17,6 +17,11 @@ body{
   animation-duration: 3s;
 }
 
+.navs{
+  border-radius: 50px;
+ 
+}
+
 @keyframes animate {
   from{
       opacity: 0.5;
