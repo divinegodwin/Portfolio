@@ -87,7 +87,7 @@ function App() {
           </div>
         </div>
 
-        <div id="service">
+        <div id="services" >
           <div className="pt-20 grid justify-center">
             <header className="font-bold text-2xl ">Service</header>
           </div>
@@ -149,9 +149,9 @@ function App() {
           </div>
         </div>
 
-        <div className=" grid justify-center">
+        <div className=" grid justify-center" id="tools">
           <div className="pt-20 grid justify-center">
-            <header className=" font-bold text-2xl ">My Tools</header>
+            <header className=" font-bold text-2xl" id="tools">My Tools</header>
           </div>
 
           <div className="grid gap-12 grid-cols-3 pt-12 h-auto justify-center">
@@ -209,7 +209,7 @@ function App() {
           </div>
         </div>
 
-        <div>
+        <div id="portfolio">
           <div className="pt-20 grid justify-center">
             <header className="font-bold text-2xl">Portfolio</header>
           </div>
@@ -239,7 +239,7 @@ function App() {
           </div>
         </div>
 
-        <div className="pt-16 grid justify-center">
+        <div className="pt-16 grid justify-center" id="contact"> 
           <p className="font-bold text-2xl">Contact Me</p>
         </div>
 
