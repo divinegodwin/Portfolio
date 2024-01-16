@@ -44,7 +44,7 @@ const Navbar = () => {
 
 {navIsClicked && (
 
-<div className=" navs h-full w-[120px] mt-[3.8rem] text-white pl-12 pt-[5rem] gap-24 fixed flex flex-col  right-0 bg-[#212123]">
+<div className=" navs h-full w-[100px] mt-[3.8rem] text-white pl-9 pt-[2rem] gap-24 fixed flex flex-col  right-0 bg-[#212123]">
 
 <ScrollLink to="home" smooth={true} duration={500}>
 <svg className="nav-icon w-[30px] hover:text-[#FFBA08]" data-slot="icon" fill="none" strokeWidth="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
