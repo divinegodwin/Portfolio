@@ -225,6 +225,7 @@ function App() {
 
           <div className="projects w-[100%] h-auto pb-5 mt-8  rounded-lg text-white">
             <div className=" grid justify-center">
+              <a href="https://ghost-gram-85ic.vercel.app/">
               <img
                 src={ghostGram}
                 alt="Ghost Gram image"
@@ -233,9 +234,11 @@ function App() {
 
               <h3 className="pl-1 pt-3 font-bold">Ghost Gram</h3>
               <p className="pl-1">Reactjs/Nextjs intergration</p>
+              </a>
             </div>
 
             <div className="grid justify-center pt-12 ">
+              <a href="https://divinegodwin.github.io/Colors/">
               <img
                 src={colorFlipper}
                 alt="color flipper image"
@@ -244,6 +247,7 @@ function App() {
 
               <h3 className="pl-1 pt-3 font-bold">Color Flipper</h3>
               <p className="pl-1">Made with vanilla Javascript</p>
+              </a>
             </div>
           </div>
         </div>
